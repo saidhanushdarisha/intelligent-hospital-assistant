@@ -1,0 +1,51 @@
+doctor_id,doctor_name,department,consultation_fee,working_days
+DOC101,Dr. Robert Smith,Cardiology,150,Mon-Fri
+DOC102,Dr. Sarah Jenkins,Cardiology,160,Mon-Sat
+DOC103,Dr. Michael Chang,Cardiology,180,Tue-Sun
+DOC104,Dr. Elena Rostova,Cardiology,170,Mon-Fri
+DOC105,Dr. David Vance,Cardiology,150,Wed-Sun
+DOC106,Dr. Emily Davis,Dermatology,120,Mon-Fri
+DOC107,Dr. Marcus Thorne,Dermatology,130,Tue-Sat
+DOC108,Dr. Priya Nair,Dermatology,125,Mon-Thu
+DOC109,Dr. Lucas Keller,Dermatology,140,Wed-Sun
+DOC110,Dr. Aisha Khan,Dermatology,135,Mon-Sat
+DOC111,Dr. James Wilson,General Practice,90,Mon-Fri
+DOC112,Dr. Olivia Martinez,General Practice,95,Mon-Sat
+DOC113,Dr. William Taylor,General Practice,100,Tue-Sun
+DOC114,Dr. Sophia Anderson,General Practice,90,Mon-Fri
+DOC115,Dr. Liam Thomas,General Practice,85,Mon-Fri
+DOC116,Dr. Benjamin White,Orthopedics,160,Mon-Fri
+DOC117,Dr. Charlotte Harris,Orthopedics,175,Tue-Sat
+DOC118,Dr. Ethan Martin,Orthopedics,165,Mon-Thu
+DOC119,Dr. Harper Clark,Orthopedics,180,Wed-Sun
+DOC120,Dr. Mason Lewis,Orthopedics,155,Mon-Sat
+DOC121,Dr. Alexander Lee,Pediatrics,110,Mon-Fri
+DOC122,Dr. Mia Walker,Pediatrics,115,Mon-Sat
+DOC123,Dr. Daniel Hall,Pediatrics,125,Tue-Sun
+DOC124,Dr. Evelyn Allen,Pediatrics,105,Mon-Fri
+DOC125,Dr. Henry Young,Pediatrics,120,Wed-Sun
+DOC126,Dr. Abigail Hernandez,Neurology,200,Mon-Fri
+DOC127,Dr. Logan King,Neurology,220,Tue-Sat
+DOC128,Dr. Elizabeth Wright,Neurology,210,Mon-Thu
+DOC129,Dr. Jackson Lopez,Neurology,195,Wed-Sun
+DOC130,Dr. Ella Hill,Neurology,205,Mon-Sat
+DOC131,Dr. Sebastian Scott,Gynecology,140,Mon-Fri
+DOC132,Dr. Aria Green,Gynecology,150,Mon-Sat
+DOC133,Dr. Jack Adams,Gynecology,145,Tue-Sun
+DOC134,Dr. Chloe Baker,Gynecology,155,Mon-Fri
+DOC135,Dr. Owen Gonzalez,Gynecology,135,Wed-Sun
+DOC136,Dr. Victoria Nelson,Ophthalmology,130,Mon-Fri
+DOC137,Dr. Gabriel Carter,Ophthalmology,135,Tue-Sat
+DOC138,Dr. Zoey Mitchell,Ophthalmology,125,Mon-Thu
+DOC139,Dr. Carter Perez,Ophthalmology,140,Wed-Sun
+DOC140,Dr. Penelope Roberts,Ophthalmology,145,Mon-Sat
+DOC141,Dr. Julian Turner,Psychiatry,170,Mon-Fri
+DOC142,Dr. Riley Phillips,Psychiatry,180,Tue-Sat
+DOC143,Dr. Luke Campbell,Psychiatry,175,Mon-Thu
+DOC144,Dr. Lily Parker,Psychiatry,165,Wed-Sun
+DOC145,Dr. Grayson Evans,Psychiatry,190,Mon-Sat
+DOC146,Dr. Nora Edwards,ENT,115,Mon-Fri
+DOC147,Dr. Isaac Collins,ENT,120,Tue-Sat
+DOC148,Dr. Hannah Stewart,ENT,125,Mon-Thu
+DOC149,Dr. Mateo Sanchez,ENT,110,Wed-Sun
+DOC150,Dr. Stella Morris,ENT,130,Mon-Sat

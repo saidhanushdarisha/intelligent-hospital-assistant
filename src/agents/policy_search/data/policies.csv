@@ -1,0 +1,50 @@
+policy_id,category,title,description,department,keywords,source_type
+HP001,Patient Safety,Patient Identification Policy,"Patients must be correctly identified using at least two identifiers before medication administration, procedures, diagnostic tests, blood transfusion, and clinical interventions.","All Departments","patient identification, two identifiers, safety verification","Hospital Accreditation Policy"
+
+HP002,Patient Safety,Fall Prevention Policy,"Hospitals must assess patients for fall risk, implement preventive measures, document assessments, and monitor high-risk patients.","Nursing, Inpatient Care","fall risk, prevention, elderly patients, safety","Hospital Accreditation Policy"
+
+HP003,Infection Control,Hand Hygiene Policy,"Healthcare workers must follow hand hygiene practices before and after patient contact and during clinical procedures to reduce healthcare-associated infections.","All Departments","hand hygiene, infection prevention, WHO five moments","WHO Infection Prevention Guideline"
+
+HP004,Infection Control,Healthcare Associated Infection Policy,"Hospitals must monitor, prevent, report, and control healthcare-associated infections through surveillance and infection control practices.","Infection Control","HAI, infection surveillance, prevention","Hospital Accreditation Policy"
+
+HP005,Medication Safety,Medication Management Policy,"Medication processes including prescribing, dispensing, storage, administration, and monitoring must follow approved safety procedures.","Pharmacy, Nursing, Doctors","medication safety, prescription, administration","Hospital Accreditation Policy"
+
+HP006,Medication Safety,High Alert Medication Policy,"High-risk medications require additional verification, labeling, storage controls, and monitoring to prevent medication errors.","Pharmacy, ICU, Nursing","high alert medication, double check, medication error","Hospital Policy"
+
+HP007,Emergency Care,Emergency Response Policy,"Patients with life-threatening conditions must receive immediate assessment, stabilization, and emergency treatment without unnecessary delay.","Emergency Department","emergency response, critical care, stabilization","Emergency Care Standard"
+
+HP008,Emergency Care,Triage Policy,"Emergency patients must be prioritized according to clinical severity using standardized triage assessment methods.","Emergency Department","triage, priority, emergency assessment","Emergency Medicine Policy"
+
+HP009,Radiology,Radiation Safety Policy,"Radiology services must follow radiation protection principles including justification, optimization, dose monitoring, and staff safety procedures.","Radiology","radiation safety, ALARA, imaging protection","Radiology Safety Standard"
+
+HP010,Radiology,Imaging Appropriateness Policy,"Diagnostic imaging should be clinically justified and the appropriate imaging modality should be selected based on patient condition.","Radiology","CT, MRI, imaging appropriateness","Radiology Policy"
+
+HP011,Radiology,Contrast Media Safety Policy,"Patients receiving contrast agents must be screened for allergies, kidney function risks, and previous adverse reactions before imaging procedures.","Radiology","contrast media, allergy, kidney function","Radiology Safety Policy"
+
+HP012,Surgery,Surgical Safety Checklist Policy,"Surgical procedures must follow pre-operative verification, site marking, anesthesia safety checks, and surgical time-out procedures.","Surgery, Operating Theatre","WHO surgical checklist, time out, surgery safety","WHO Surgical Safety Checklist"
+
+HP013,Patient Rights,Patient Consent Policy,"Patients must provide informed consent before procedures after receiving adequate information regarding risks, benefits, and alternatives.","All Clinical Departments","informed consent, patient rights, authorization","Healthcare Ethics Policy"
+
+HP014,Patient Rights,Patient Privacy and Confidentiality Policy,"Patient information must be protected and accessed only by authorized healthcare personnel.","All Departments","privacy, confidentiality, medical records","HIPAA Privacy Principle"
+
+HP015,Medical Records,Clinical Documentation Policy,"Healthcare professionals must maintain accurate, complete, timely, and confidential patient records.","Doctors, Nursing, Medical Records","documentation, EMR, patient records","Hospital Accreditation Policy"
+
+HP016,Medical Records,Electronic Medical Record Policy,"Electronic health records must be maintained securely with proper access control, authentication, and audit monitoring.","IT, Medical Records","EMR, electronic records, access control","Healthcare IT Policy"
+
+HP017,Discharge,Patient Discharge Planning Policy,"Patients must receive discharge instructions, medication information, follow-up plans, and education before leaving the hospital.","All Departments","discharge planning, follow-up, patient education","Hospital Policy"
+
+HP018,Quality Improvement,Clinical Audit Policy,"Hospitals must perform periodic clinical audits to evaluate quality, safety, outcomes, and compliance with standards.","Quality Department","clinical audit, quality improvement","Quality Management Policy"
+
+HP019,Staff Safety,Occupational Health Policy,"Healthcare workers must receive protection, vaccination guidance, exposure management, and workplace safety support.","Human Resources, Occupational Health","staff safety, vaccination, exposure","Healthcare Worker Safety Policy"
+
+HP020,Blood Transfusion,Blood Safety Policy,"Blood components must be collected, stored, verified, administered, and monitored according to transfusion safety procedures.","Blood Bank, Nursing","blood transfusion, compatibility, monitoring","Blood Safety Standard"
+
+HP021,Insurance,Insurance Verification Policy,"Patient insurance eligibility and coverage must be verified before planned services, admissions, and procedures.","Billing, Insurance Desk","insurance verification, eligibility, coverage","Hospital Financial Policy"
+
+HP022,Insurance,Insurance Preauthorization Policy,"Procedures requiring insurer approval must receive authorization before scheduled treatment whenever applicable.","Billing, Insurance Desk","prior authorization, approval, insurance","Insurance Policy"
+
+HP023,Insurance,Medical Billing Policy,"Hospital billing must accurately represent services provided and include appropriate clinical documentation support.","Billing Department","billing, claims, reimbursement","Healthcare Finance Policy"
+
+HP024,Patient Safety,Incident Reporting Policy,"Healthcare workers must report adverse events, near misses, medication errors, and safety incidents for review and improvement.","Quality Department","incident reporting, adverse events, patient safety","Patient Safety Policy"
+
+HP025,Data Security,Cybersecurity and Data Protection Policy,"Healthcare information systems must protect patient data through secure access, monitoring, and data protection controls.","IT Department","cybersecurity, patient data, information security","Healthcare IT Policy"

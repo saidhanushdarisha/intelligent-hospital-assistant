@@ -1,0 +1,206 @@
+{
+  "tools": [
+    {
+      "name": "general",
+      "type": "chitchat",
+      "description": "Handles greetings, small talk directed at the assistant, and questions about what this assistant can do. Not a clinical or administrative tool — just conversational framing around the assistant itself.",
+      "use_when": [
+        "User greets the assistant (e.g. hello, hi, good morning).",
+        "User asks what the assistant can do, how to use it, or what it's for.",
+        "User makes small talk directed at the assistant itself.",
+        "User thanks the assistant or says goodbye."
+      ],
+      "do_not_use_when": [
+        "User asks a clinical question.",
+        "User wants a prediction, guideline, procedure, triage, appointment, or policy answer.",
+        "User asks something unrelated to this hospital assistant entirely."
+      ],
+      "examples": [
+        "Hello",
+        "Hi there",
+        "What can you do?",
+        "Thanks, bye!"
+      ],
+      "priority": 0
+    },
+    {
+      "name": "readmission_risk",
+      "type": "ml_model",
+      "description": "Predicts the probability that a patient will be readmitted to the hospital within a specified time window (e.g., 30 days) using structured clinical data.",
+      "use_when": [
+        "User asks about readmission risk.",
+        "User wants a readmission prediction.",
+        "User provides patient clinical features for readmission estimation.",
+        "User asks whether a patient is likely to return to the hospital."
+      ],
+      "do_not_use_when": [
+        "User asks for treatment recommendations.",
+        "User asks about medical guidelines.",
+        "User asks about hospital policies.",
+        "User wants appointment-related actions."
+      ],
+      "examples": [
+        "Predict readmission risk for this patient.",
+        "Will this patient likely be readmitted?",
+        "Estimate 30-day readmission probability."
+      ],
+      "priority": 1
+    },
+    {
+      "name": "high_risk_patients",
+      "type": "ml_model",
+      "description": "Identifies whether a patient belongs to a high-risk clinical category based on available patient information.",
+      "use_when": [
+        "User asks if a patient is high risk.",
+        "User wants patient risk stratification.",
+        "User asks to identify high-risk patients."
+      ],
+      "do_not_use_when": [
+        "User asks specifically about readmission prediction.",
+        "User requests medical guidelines.",
+        "User requests treatment procedures.",
+        "User asks administrative questions."
+      ],
+      "examples": [
+        "Is this patient high risk?",
+        "Classify this patient into risk categories.",
+        "Find high-risk patients."
+      ],
+      "priority": 2
+    },
+    {
+      "name": "health_guidelines",
+      "type": "rag",
+      "description": "Retrieves evidence-based medical guidelines, recommendations, best practices, and clinical protocols from trusted medical documents.",
+      "use_when": [
+        "User asks for disease management guidelines.",
+        "User asks what clinical guidelines recommend.",
+        "User requests standard medical recommendations.",
+        "User asks about prevention or management recommendations."
+      ],
+      "do_not_use_when": [
+        "User asks for a procedural workflow.",
+        "User requests patient prediction.",
+        "User asks about appointments.",
+        "User asks about organizational policies."
+      ],
+      "examples": [
+        "What are the diabetes management guidelines?",
+        "Guidelines for hypertension treatment.",
+        "WHO recommendations for dengue."
+      ],
+      "priority": 3
+    },
+    {
+      "name": "treatment_procedures",
+      "type": "rag",
+      "description": "Retrieves step-by-step treatment procedures, clinical workflows, operative procedures, and medical protocols.",
+      "use_when": [
+        "User asks how a medical procedure is performed.",
+        "User requests treatment workflow.",
+        "User asks for procedural steps.",
+        "User asks about surgical or clinical procedures."
+      ],
+      "do_not_use_when": [
+        "User only wants general guidelines.",
+        "User requests predictions.",
+        "User requests policy information.",
+        "User wants appointment scheduling."
+      ],
+      "examples": [
+        "How is CPR performed?",
+        "Procedure for central venous catheter insertion.",
+        "Steps of wound dressing."
+      ],
+      "priority": 4
+    },
+    {
+      "name": "triage",
+      "type": "agent",
+      "description": "Assesses patient symptoms and determines the urgency or priority of medical attention.",
+      "use_when": [
+        "User describes symptoms.",
+        "User asks whether immediate medical care is needed.",
+        "User wants urgency assessment.",
+        "User requests emergency prioritization."
+      ],
+      "do_not_use_when": [
+        "User asks for disease guidelines.",
+        "User requests appointment booking.",
+        "User asks about hospital policies.",
+        "User wants risk prediction models."
+      ],
+      "examples": [
+        "I have chest pain. What should I do?",
+        "My child has a fever and breathing difficulty.",
+        "Should I go to the emergency room?"
+      ],
+      "priority": 5
+    },
+    {
+      "name": "appointment",
+      "type": "agent",
+      "description": "Handles appointment-related tasks such as booking, rescheduling, cancelling, or checking appointment availability.",
+      "use_when": [
+        "User wants to book an appointment.",
+        "User wants to reschedule.",
+        "User wants to cancel.",
+        "User asks about appointment availability."
+      ],
+      "do_not_use_when": [
+        "User asks clinical questions.",
+        "User asks about treatment.",
+        "User requests medical predictions.",
+        "User asks about organizational policies."
+      ],
+      "examples": [
+        "Book an appointment.",
+        "Cancel my appointment.",
+        "Reschedule tomorrow's appointment."
+      ],
+      "priority": 6
+    },
+    {
+      "name": "policy_search",
+      "type": "agent",
+      "description": "Searches hospital or organizational policies, administrative rules, insurance policies, and operational documentation.",
+      "use_when": [
+        "User asks about hospital policies.",
+        "User asks insurance coverage rules.",
+        "User asks administrative procedures.",
+        "User asks organizational regulations."
+      ],
+      "do_not_use_when": [
+        "User asks clinical questions.",
+        "User asks for treatment procedures.",
+        "User asks for patient prediction.",
+        "User asks about symptoms."
+      ],
+      "examples": [
+        "What is the visitor policy?",
+        "Does insurance cover MRI?",
+        "Leave policy for healthcare staff."
+      ],
+      "priority": 7
+    },
+    {
+      "name": "unknown",
+      "type": "fallback",
+      "description": "Use only when the request is unrelated to this hospital assistant's supported capabilities altogether. Do NOT use this for greetings or 'what can you do' questions — those go to 'general'.",
+      "use_when": [
+        "The request is unrelated to healthcare or to this assistant's capabilities.",
+        "No tool, including 'general', has a clear match.",
+        "Multiple tools partially match but none confidently."
+      ],
+      "do_not_use_when": [
+        "The user is greeting the assistant or asking what it can do (use 'general' instead)."
+      ],
+      "examples": [
+        "Write me a poem.",
+        "Who won the football match yesterday?",
+        "Generate Python code for sorting."
+      ],
+      "priority": 999
+    }
+  ]
+}

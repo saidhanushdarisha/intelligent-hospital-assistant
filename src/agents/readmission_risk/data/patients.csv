@@ -1,0 +1,21 @@
+Patient ID,Name,Age,Gender,Condition,Procedure,Cost,Length_of_Stay,Outcome,Satisfaction
+PT-101,Alice Johnson,65,Female,Heart Attack,Angioplasty,15400.00,5,Stable,4
+PT-102,Bob Smith,45,Male,Diabetes,Insulin Therapy,1200.00,2,Recovered,5
+PT-103,Charlie Brown,72,Male,Stroke,CT Scan and Medication,8500.00,8,Stable,3
+PT-104,Diana Prince,28,Female,Appendicitis,Appendectomy,4500.00,3,Recovered,4
+PT-105,Evan Wright,58,Male,Cancer,Surgery and Chemotherapy,22000.00,12,Stable,2
+PT-106,Fiona Clarke,34,Female,Childbirth,Delivery and Postnatal Care,6200.00,3,Recovered,5
+PT-107,George Harris,61,Male,Heart Disease,Cardiac Catheterization,18500.00,6,Stable,3
+PT-108,Hannah Lee,42,Female,Allergic Reaction,Epinephrine Injection,950.00,1,Recovered,5
+PT-109,Ian Foster,55,Male,Hypertension,Medication and Counseling,2100.00,3,Recovered,4
+PT-110,Julia Santos,70,Female,Osteoarthritis,Physical Therapy and Pain Management,3800.00,5,Stable,3
+PT-111,Kevin Patel,48,Male,Kidney Stones,Lithotripsy,7600.00,2,Recovered,4
+PT-112,Laura Chen,38,Female,Respiratory Infection,Antibiotics and Rest,1800.00,4,Recovered,4
+PT-113,Michael Torres,67,Male,Prostate Cancer,Radiation Therapy,19200.00,10,Stable,2
+PT-114,Nina Kowalski,31,Female,Fractured Arm,X-Ray and Splint,2200.00,1,Recovered,5
+PT-115,Oscar Rivera,76,Male,Stroke,CT Scan and Medication,11000.00,9,Stable,2
+PT-116,Patricia Adams,52,Female,Heart Attack,Angioplasty,16800.00,7,Stable,3
+PT-117,Quentin Brooks,44,Male,Fractured Leg,Cast and Physical Therapy,5400.00,4,Recovered,4
+PT-118,Rachel Kim,29,Female,Allergic Reaction,Epinephrine Injection,1100.00,1,Recovered,5
+PT-119,Samuel Green,63,Male,Heart Disease,Cardiac Catheterization,17500.00,8,Stable,3
+PT-120,Teresa Wang,56,Female,Cancer,Surgery and Chemotherapy,24500.00,14,Stable,1
